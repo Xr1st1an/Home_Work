@@ -21,10 +21,15 @@ print(student2)
 
 print("==================================")
 
-snake_style = 'Defence_Of_The_Ancients'
+snake_style = 'defence_of_the_ancients'
 lst = snake_style.split('_')
-camelized_style = '%s%s%s%s' % (lst[0], lst[1], lst[2], lst[3])
-print(camelized_style)
+defence = lst[0]
+of = lst[1]
+the = lst[2]
+ancients = lst[3]
+result = defence.title() + of.title() + the.title() + ancients.title()
+print(result)
+
 
 print("==================================")
 
