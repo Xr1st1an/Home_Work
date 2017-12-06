@@ -31,14 +31,14 @@ print('Сумма цифр трехзначного числа:', result)
 
 #Задание №3
 
-def perimetr(amount1, amount2):
-    square = (amount1 * amount2) / 2
+def square_perimetr(catheter1, catheter2):
+    square = (catheter1 * catheter2) / 2
 
-    hypotenuse = math.sqrt((amount1)**2 + (amount2)**2)
-    perimeter = hypotenuse + amount1 + amount2
+    hypotenuse = math.sqrt((catheter1)**2 + (catheter2)**2)
+    perimeter = hypotenuse + catheter1 + catheter2
     return square, perimeter
 
-amount1 = 4
-amount2 = 2
-example = perimetr(amount1, amount2)
+catheter1 = 4
+catheter2 = 2
+example = square_perimetr(catheter1, catheter2)
 print(example)
